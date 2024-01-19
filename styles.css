@@ -1,0 +1,165 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: rgba(7, 12, 11, 0); /* Updated transparent background color */
+    color: #000000;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    flex-direction: column; /* Updated to column layout */
+    text-align: center; /* Centered text */
+}
+
+.headshot img {
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    margin-bottom: 10px; /* Added margin */
+}
+
+.header-text {
+    flex: 1;
+}
+
+.header-text h1 {
+    font-family: 'Roboto Condensed', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 40px;
+    margin: 0;
+}
+
+.header-text h1 em {
+    font-style: italic;
+    display: inline; /* Ensures proper styling */
+}
+
+.header-text h1 em:first-child {
+    color: #56100C; /* Red color for "Peter" */
+    font-weight: 500; /* Medium 500 */
+}
+
+.header-text h1 em:last-child {
+    font-weight: 500; /* med 500 */
+}
+
+.header-text p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    margin: 5px 0;
+}
+
+.summary,
+.contact-info {
+    background-color: rgba(255, 255, 255, 0.8); /* Updated transparent background color */
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.summary h2,
+.contact-info h2 {
+    color: #070C0B;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: bold;
+    font-size: 24px; /* Increased font size to 24px */
+    margin-bottom: 5px;
+}
+
+.summary p,
+.contact-info p {
+    color: #070C0B;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px; /* Increased font size to 16px */
+    margin: 5px 0;
+}
+
+.summary p strong,
+.contact-info p strong {
+    font-weight: bold; /* Added bold text */
+    font-size: 20px; /* Increased font size to 20px */
+}
+
+.left-column,
+.right-column {
+    flex-basis: calc(50% - 10px); /* Reduced space between columns */
+}
+
+.center-column {
+    flex-basis: 100%;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.education,
+.work-experience,
+.skills,
+.references {
+    margin-top: 20px;
+}
+
+.education h2,
+.work-experience h2,
+.skills h2,
+.references h2 {
+    color: #4E5451; /* Updated text color */
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: bold;
+    font-size: 24px; /* Increased font size to 24px */
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+.education ul,
+.work-experience ul,
+.skills div,
+.references p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px; /* Increased font size to 16px */
+    margin: 5px 0;
+}
+
+.work-experience h3,
+.references p {
+    color: #56100C;
+    font-size: 18px; /* Increased font size to 18px */
+}
+
+.skills div {
+    background-color: rgba(78, 84, 81, 0.5); /* Updated transparent background color */
+    color: #000; /* Updated text color to black */
+    padding: 5px;
+    margin: 5px 0;
+    font-weight: bold; /* Added bold text */
+}
+
+.skills h2 {
+    color: #4E5451;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: bold;
+}
+
+.education li {
+    color: #56100C; /* Updated text color to red */
+    font-weight: bold; /* Added bold text */
+}
+
+.references p {
+    margin: 5px 0;
+    font-size: 16px; /* Updated size */
+    font-weight: bold; /* Added bold text */
+}
+
+.references strong {
+    color: #56100C;
+}
